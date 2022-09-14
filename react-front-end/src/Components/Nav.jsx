@@ -21,7 +21,7 @@ function Nav() {
         <Dropdown.Menu className='drop-down'>
           <Dropdown.Item href="/sign-in">Sign In</Dropdown.Item>
           <Dropdown.Item href="/sign-up">Sign up</Dropdown.Item>
-          <Dropdown.Item onClick={ logout }>Sign out</Dropdown.Item>
+          <Dropdown.Item href='/' onClick={ logout }>Sign out</Dropdown.Item>
           <Link className='admin' to='/create-course'>Admin</Link>
           <Dropdown.Item href="/contact-us">Contact us</Dropdown.Item>
         </Dropdown.Menu>
